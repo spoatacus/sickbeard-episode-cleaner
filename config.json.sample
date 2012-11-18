@@ -1,0 +1,20 @@
+{
+	"server": {
+		"hostname": "",
+		"port": 8081,
+		"web_root": "",
+		"api_key": ""
+	},
+	"shows": {
+		// The Colbert Report
+		"79274": {					// tvdb id
+			"keep_episodes": 10		// number of episodes to keep
+		},
+		"71256": {					// tvdb id
+			"keep_episodes": 10		// number of episodes to keep
+		},
+		"194751": {					// tvdb id
+			"keep_episodes": 10		// number of episodes to keep
+		}
+	}
+}
