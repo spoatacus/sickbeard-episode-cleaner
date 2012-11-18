@@ -1,12 +1,11 @@
-Sickbeard Episode Cleaner
-==
+# Sickbeard Episode Cleaner
 
 A post processing script for Sickbeard that allows you to set the number of episodes of a show that you would like to keep. Useful for shows that air daily.
 
 The script sorts the episodes you have for a show by the season and episode number, and then deletes the oldest episodes past the threshold you set.
 
-How to use
---
+## How to use
+
 1. Clone the repository
 ``` git clone https://github.com/spoatacus/sickbeard-episode-cleaner.git ```
 2. Change owner to your Sickbeard user
@@ -20,8 +19,8 @@ How to use
     - Add the full path of sickbeard-episode-cleaner/main.py to the extra_scripts setting (under [General])
     - Start Sickbeard
 
-Configuration
---
+## Configuration
+
 Configuration is pretty straight forward as this sample config file shows. The keys under shows are the tvdb id's for the shows you want to clean.
 
 There is a sample config included. Just move it to config.json.
